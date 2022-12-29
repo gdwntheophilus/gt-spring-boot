@@ -1,6 +1,7 @@
 package gt.learning;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class StringArray {
     public String[] learnStringArray(){
@@ -15,5 +16,12 @@ public class StringArray {
         nameList[0] = "Godwin Theophilus";
         System.out.println(Arrays.toString(nameList));
         return nameList;
+    }
+
+    public void ListOfStrings() {
+        String[] names = new String[]{
+                "a","b"
+        };
+        System.out.println(List.of(names));
     }
 }

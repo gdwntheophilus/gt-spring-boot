@@ -15,8 +15,17 @@ public class ArrayStreamValues {
         Arrays.stream(names).forEach(data ->{
             System.out.println(data);
         });
+
+        //length
+        System.out.println(names.length);
+        //count
         System.out.println(Arrays.stream(names).count());
         //remove duplicates
         System.out.println(Arrays.toString(Arrays.stream(names).distinct().toArray()));
+        //sorting
+        Arrays.sort(names);
+        System.out.println(Arrays.toString(names));
+
+
     }
 }
